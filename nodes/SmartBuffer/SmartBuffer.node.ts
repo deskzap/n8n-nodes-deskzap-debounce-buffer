@@ -8,7 +8,7 @@ import {
 export class SmartBuffer implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'Deskzap - Smart Buffer',
-		name: 'smartBuffer',
+		name: 'deskzapSmartBuffer',
 		icon: 'file:SmartBuffer.png',
 		group: ['transform'],
 		version: 1,
