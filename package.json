@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-deskzap-buffer",
-  "version": "0.3.5",
+  "version": "0.3.6",
   "description": "Node do n8n para buffer de mensagens com debounce (Deskzap)",
   "keywords": [
     "n8n-community-node-package"
@@ -29,7 +29,7 @@
   ],
   "n8n": {
     "nodes": [
-      "dist/nodes/DeskzapDebounceSmartBuffer/DeskzapDebounceSmartBuffer.node.js"
+      "dist/nodes/SmartBuffer/SmartBuffer.node.js"
     ],
     "credentials": [
       "dist/credentials/RedisCredentials.credentials.js"

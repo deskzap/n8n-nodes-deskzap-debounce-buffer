@@ -5,11 +5,11 @@ import {
 	INodeTypeDescription,
 } from 'n8n-workflow';
 
-export class DeskzapDebounceSmartBuffer implements INodeType {
+export class SmartBuffer implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'Deskzap - Smart Debounce Buffer',
-		name: 'deskzapDebounceSmartBuffer',
-		icon: 'file:DeskzapDebounceSmartBuffer.png',
+		displayName: 'Deskzap - Smart Buffer',
+		name: 'smartBuffer',
+		icon: 'file:SmartBuffer.png',
 		group: ['transform'],
 		version: 1,
 		description: 'Debug Version - Hello World',
