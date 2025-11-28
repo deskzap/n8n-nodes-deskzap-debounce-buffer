@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-deskzap-buffer",
-  "version": "0.3.10",
+  "version": "0.4.0",
   "description": "Node do n8n para buffer de mensagens com debounce (Deskzap)",
   "keywords": [
     "n8n-community-node-package"
