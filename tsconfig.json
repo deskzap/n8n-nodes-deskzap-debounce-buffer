@@ -1,9 +1,6 @@
 {
   "compilerOptions": {
-    "rootDirs": [
-      "nodes",
-      "credentials"
-    ],
+    "rootDir": ".",
     "outDir": "dist",
     "lib": [
       "es2019",
