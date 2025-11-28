@@ -71,6 +71,25 @@ Use o campo `text` para enviar ao LLM (ex: OpenAI, Basic LLM Chain, etc).
 - Apenas a **última** mensagem retorna dados após o silêncio completo.
 - Mensagens intermediárias não retornam output (comportamento normal do debounce).
 
+## 🧠 Novo: Deskzap - Smart Debounce Buffer
+
+Além do buffer tradicional, este pacote agora inclui o **Smart Buffer**.
+
+### O que ele faz?
+Ele funciona exatamente como o buffer normal (acumula mensagens e aguarda silêncio), mas **antes de entregar o resultado**, ele envia as mensagens acumuladas para um **Modelo de IA (LLM)** conectado.
+
+Isso permite que você receba o texto já:
+- Corrigido gramaticalmente
+- Formatado e pontuado
+- Resumido ou traduzido (dependendo do seu prompt)
+
+### Como Usar o Smart Buffer
+1. Adicione o node **Deskzap - Smart Debounce Buffer**.
+2. Conecte um node de Modelo de IA (ex: OpenAI, Ollama, Google Gemini) na entrada **Model**.
+3. Configure o **System Prompt** no node Smart Buffer para instruir a IA (ex: "Corrija a pontuação e gramática...").
+
+---
+
 ## Suporte
 
 Desenvolvido por **Deskzap Automações**.  
