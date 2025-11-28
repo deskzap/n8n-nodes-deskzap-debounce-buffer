@@ -45,12 +45,12 @@ export class DeskzapDebounceSmartBuffer implements INodeType {
 		},
 		inputs: [
 			'main',
-			{
-				displayName: 'Model',
-				type: 'ai_languageModel',
-				required: false,
-				maxConnections: 1,
-			},
+			// {
+			// 	displayName: 'Model',
+			// 	type: 'ai_languageModel',
+			// 	required: false,
+			// 	maxConnections: 1,
+			// },
 		],
 		outputs: ['main'],
 		credentials: [
