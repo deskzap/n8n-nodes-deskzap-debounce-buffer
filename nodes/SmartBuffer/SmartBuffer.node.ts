@@ -28,7 +28,7 @@ export class SmartBuffer implements INodeType {
 				type: 'ai_languageModel',
 				maxConnections: 1,
 				required: true,
-			},
+			} as any,
 		],
 		outputs: ['main'],
 		credentials: [
