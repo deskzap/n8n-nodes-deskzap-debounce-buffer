@@ -29,7 +29,8 @@
   ],
   "n8n": {
     "nodes": [
-      "dist/nodes/DeskzapDebounceBuffer/DeskzapDebounceBuffer.node.js"
+      "dist/nodes/DeskzapDebounceBuffer/DeskzapDebounceBuffer.node.js",
+      "dist/nodes/DeskzapDebounceSmartBuffer/DeskzapDebounceSmartBuffer.node.js"
     ],
     "credentials": [
       "dist/credentials/RedisCredentials.credentials.js"
