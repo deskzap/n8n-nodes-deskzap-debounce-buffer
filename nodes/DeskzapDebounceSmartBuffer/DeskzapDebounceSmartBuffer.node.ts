@@ -36,7 +36,7 @@ export class DeskzapDebounceSmartBuffer implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'Deskzap - Smart Debounce Buffer',
 		name: 'deskzapDebounceSmartBuffer',
-		icon: 'file:DeskzapDebounceBuffer.png',
+		icon: 'file:DeskzapDebounceSmartBuffer.png',
 		group: ['transform'],
 		version: 1,
 		description: 'Acumula mensagens e usa LLM para processar após silêncio (Debounce).',
