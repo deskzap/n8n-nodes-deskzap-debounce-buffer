@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-deskzap-buffer",
-  "version": "0.3.9",
+  "version": "0.3.10",
   "description": "Node do n8n para buffer de mensagens com debounce (Deskzap)",
   "keywords": [
     "n8n-community-node-package"
@@ -15,7 +15,7 @@
     "type": "git",
     "url": "git+https://github.com/deskzap/n8n-nodes-deskzap-debounce-buffer.git"
   },
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc && gulp build:icons",
     "dev": "tsc --watch",
